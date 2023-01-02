@@ -45,6 +45,7 @@ packages:
   - selinux-policy-targeted
   - sudo
   - usbutils
+  - flatpak
 # shell tools and development
   - bc
   - gnupg2
@@ -75,6 +76,7 @@ packages:
   - cockpit-ws
   - syncthing
   - krb5-workstation
+  - distrobox
 
 # desktop plumbing/apps
   - dejavu-sans-fonts
