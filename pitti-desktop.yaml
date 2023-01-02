@@ -25,6 +25,7 @@ packages:
   - powertop
   - iwd
   - wpa_supplicant
+  - linux-firmware
 # basic system
   - acl
   - attr
@@ -106,6 +107,7 @@ packages:
   - rofimoji
 
 # sway/wayland desktop
+  - river
   - sway
   - swayidle
   - swaylock
@@ -119,14 +121,15 @@ packages:
   - wofi
   - brightnessctl
   - wl-clipboard
+  - xdg-desktop-portal-wlr
+  - alacritty
+  - gnome-terminal
+  - vulkan-validation-layers
 
 exclude-packages:
   # recommended by sway
-  - alacritty
   - brltty
   - glibc-all-langpacks
-  # does not work
-  - xdg-desktop-portal-wlr
 
 add-files:
   - ["2015-RH-IT-Root-CA.pem", "/etc/pki/ca-trust/source/anchors/2015-RH-IT-Root-CA.pem"]
